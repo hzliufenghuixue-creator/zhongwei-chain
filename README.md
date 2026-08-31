@@ -1,4 +1,4 @@
-# 中微链证｜互联网部署版 MVP v3
+# 中微链证｜互联网部署版 v3
 
 运营主体：中微区块链技术（深圳）有限公司
 
@@ -17,7 +17,7 @@
 
 ## 重要说明
 
-本项目是 GitHub Pages 静态演示版本：
+本项目是 GitHub Pages 静态：
 
 1. 不连接生产数据库。
 2. 不连接真实区块链节点。
@@ -34,6 +34,5 @@
 `Settings → Pages → Build and deployment → Source: Deploy from a branch → main → /(root) → Save`
 
 等待 Pages 部署完成后即可访问项目地址。
-
 
 本包基于上一版网站页面，仅替换《服务条款》和《隐私政策》页面正文为用户提供的原始文档内容；其余页面与功能保持上一版不变。
