@@ -34,3 +34,6 @@
 `Settings → Pages → Build and deployment → Source: Deploy from a branch → main → /(root) → Save`
 
 等待 Pages 部署完成后即可访问项目地址。
+
+
+本包基于上一版网站页面，仅替换《服务条款》和《隐私政策》页面正文为用户提供的原始文档内容；其余页面与功能保持上一版不变。
