@@ -1,1 +1,35 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>中微链证｜数字存证与授权服务平台</title><link rel="stylesheet" href="style.css"></head><body><header><div class="nav"><div class="logo">中微链证</div><nav><a href="#home">首页</a><a href="#services">服务</a><a href="#verify">存证验证</a><a href="#about">关于我们</a></nav><a class="btn small" href="#register">立即注册</a></div></header><main><section id="home" class="hero"><div><div class="eyebrow">中微区块链技术（深圳）有限公司</div><h1>让数据留痕，让授权更清晰</h1><p>面向个人及企业用户的数字存证、授权管理与信息验证服务平台。</p><div class="actions"><a class="btn" href="#register">立即注册</a><a class="btn ghost" href="#verify">验证存证</a></div></div><div class="hero-card"><div class="chain">●　●　●　●</div><h3>可信数据服务</h3><p>注册、授权、存证、验证，一站式在线管理。</p></div></section><section id="services"><div class="section-title"><span>OUR SERVICES</span><h2>平台服务</h2></div><div class="cards"><div class="card"><b>01</b><h3>用户注册</h3><p>用户在线注册并建立专属账户。</p></div><div class="card"><b>02</b><h3>授权管理</h3><p>在线阅读服务协议并记录用户授权意愿。</p></div><div class="card"><b>03</b><h3>数字存证</h3><p>为指定内容生成数据指纹并形成存证记录。</p></div><div class="card"><b>04</b><h3>存证验证</h3><p>通过存证编号快速查看验证结果。</p></div></div></section><section id="verify" class="verify"><div><div class="eyebrow">VERIFY</div><h2>存证验证</h2><p>输入存证编号，查询平台演示存证记录。</p></div><div class="verify-box"><input id="verifyId" placeholder="例如：ZW202608310001"><button class="btn" onclick="verify()">立即验证</button><div id="verifyResult"></div></div></section><section id="about" class="about"><div><div class="eyebrow">ABOUT US</div><h2>中微区块链技术（深圳）有限公司</h2><p>致力于数字存证、可信数据服务及相关技术平台建设。</p></div><div class="about-list"><span>数字存证</span><span>授权管理</span><span>数据验证</span><span>可信服务</span></div></section></main><footer>© 2026 中微区块链技术（深圳）有限公司　|　用户服务协议　|　隐私政策</footer><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<meta name="description" content="中微链证｜数字存证与授权服务平台互联网展示版">
+<title>中微链证｜数字存证与授权服务平台</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="demo-bar">互联网展示版 MVP · 本站仅用于产品流程演示，请勿填写真实身份证号码</div>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="#home" aria-label="中微链证首页"><span class="brand-mark">链</span><span><b>中微链证</b><small>数字存证与授权服务平台</small></span></a>
+    <nav class="desktop-nav" aria-label="主导航"><a href="#home">首页</a><a href="#services">平台服务</a><a href="#verify">存证验证</a><a href="#about">关于平台</a></nav>
+    <div id="navAccount" class="nav-account"></div>
+  </div>
+</header>
+<main id="main"></main>
+<footer class="footer">
+  <div class="footer-main">
+    <div class="brand footer-brand"><span class="brand-mark">链</span><span><b>中微链证</b><small>中微区块链技术（深圳）有限公司</small></span></div>
+    <div class="footer-cols">
+      <div><b>服务</b><a href="#services">平台服务</a><a href="#verify">存证验证</a><a href="#register">立即注册</a></div>
+      <div><b>协议</b><a href="#agreement">用户服务协议</a><a href="#privacy">隐私政策</a><a href="#privacy#rights">个人信息权利</a></div>
+      <div><b>平台说明</b><span>互联网展示版 MVP</span><span>不连接生产数据库</span><span>不构成实际区块链上链证明</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 中微区块链技术（深圳）有限公司</span><span>仅供产品流程展示使用</span></div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
